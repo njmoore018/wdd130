@@ -4,5 +4,9 @@
 }
 
 body {
-    background-color: #4E8098;
+    background-color: #4e8098;
+}
+
+header, footer {
+    background-color: #cdeeaa;
 }
