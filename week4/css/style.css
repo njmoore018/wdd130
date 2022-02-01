@@ -11,11 +11,23 @@ body {
 header, 
 footer {
     background-color: #90c2e7;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: ;
 }
 
 /* Class Selectors ******************************************/
 
 .page {
-    max-width: 800px;
+    max-width: 960px;
     margin: 1rem auto;
+}
+
+a.imagelink {
+    text-decoration: none;
 }
