@@ -13,9 +13,9 @@ footer {
     background-color: #90c2e7;
 }
 
-header, 
-main, 
-footer {
+/* Class Selectors ******************************************/
+
+.page {
     max-width: 800px;
     margin: 1rem auto;
 }
