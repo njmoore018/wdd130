@@ -10,9 +10,21 @@ body {
 header{
     background-color: #90c2e7;
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-columns: 100px 1fr 1fr;
     align-items: center;
     justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+a{
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
 }
 
 footer {
@@ -31,6 +43,14 @@ h1{
     font-variant: normal;
 }
 
+h2{
+    color: #4e8098;
+    font-family: "Bubblegum Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+}
+
 main{
     font-size: 16px;
     font-family: "Scope One";
@@ -38,21 +58,10 @@ main{
     font-variant: normal;
 }
 
-a {
-    color: #cdeeaa;
-    font-family: "Scope One";
-    font-size: 12px;
-    font-style: normal;
-    font-variant: normal;
-}
 
 /* Class Selectors ******************************************/
 
 .page {
     max-width: 960px;
     margin: 0 auto;
-}
-
-a.imagelink {
-    text-decoration: none;
 }
