@@ -4,8 +4,30 @@
     padding: 0;
 }
 
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #cdeeaa;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Bubblegum Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    padding: 10px;
+}
+
+h2{
+    color: #4e8098;
+    font-family: "Bubblegum Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
 }
 
 /* #endregion COMMON */
@@ -33,32 +55,10 @@ a{
 
 /* #endregion HEADER */
 
-footer {
-    background-color: #90c2e7;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-}
-
-h1{
-    color: #ffffff;
-    font-family: "Bubblegum Sans";
-    font-size: 50px;
-    font-style: normal;
-    font-variant: normal;
-    padding: 10px;
-}
-
-h2{
-    color: #4e8098;
-    font-family: "Bubblegum Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-variant: normal;
-}
-
 main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     font-size: 16px;
     font-family: "Scope One";
     font-style: normal;
@@ -66,9 +66,10 @@ main{
 }
 
 
-/* Class Selectors ******************************************/
-
-.page {
-    max-width: 960px;
-    margin: 0 auto;
+footer {
+    background-color: #90c2e7;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
