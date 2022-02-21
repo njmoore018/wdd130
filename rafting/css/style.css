@@ -1,3 +1,4 @@
+/* #region COMMON */
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,14 @@ body {
     background-color: #cdeeaa;
 }
 
+/* #endregion COMMON */
+
+/* #region HEADER */
+
 header{
     background-color: #90c2e7;
     display: grid;
-    grid-template-columns: 100px 1fr 1fr;
+    grid-template-columns: 125px 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
@@ -18,7 +23,6 @@ header{
 ul{
     display: flex;
     list-style: none;
-    
 }
 
 a{
@@ -26,6 +30,8 @@ a{
     display: block;
     text-decoration: none;
 }
+
+/* #endregion HEADER */
 
 footer {
     background-color: #90c2e7;
@@ -38,9 +44,10 @@ footer {
 h1{
     color: #ffffff;
     font-family: "Bubblegum Sans";
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
+    padding: 10px;
 }
 
 h2{
