@@ -5,3 +5,24 @@
 img{
     max-height: 300px;
 }
+
+.site-map{
+    display: grid;
+    justify-items: center;
+    grid-gap: 1rem;
+}
+
+.home{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.tutorials{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.submissions{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
