@@ -225,7 +225,6 @@ section {
     display: flex;
     width: 100%;
     height: auto;
-    
 }
 
 .container {
@@ -298,10 +297,9 @@ section {
 .more-questions {
     display: grid;
     grid-gap: 5px;
-    padding: 10px;
+    padding: 5rem;
     align-items: center;
     justify-items: center;
-    padding-bottom: 5rem;
 }
 
 .help-ticket {
