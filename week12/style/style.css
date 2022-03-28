@@ -13,13 +13,11 @@ a {
 }
 
 .card {
-    display: grid;
     width: 400px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 2px 2px 5px #808080;
     background-color: #ffffff;
-
 }
 
 .top-card {
@@ -45,6 +43,7 @@ a {
 
 .card-info {
     display: grid;
+    grid-gap: 2rem;
     justify-items: center;
     align-items: center;
     padding: 1rem;
