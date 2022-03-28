@@ -22,11 +22,25 @@ a {
 
 }
 
-.photo {
+.top-card {
     position: relative;
+}
+
+.photo {
     width: 400px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.heart {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+.heart :hover {
+    transform: scale(1.3);
+    transition: all 250ms;
 }
 
 .card-info {
@@ -46,17 +60,25 @@ a {
 }
 
 .details {
-    padding: 1rem;
+    display: block;
+    border-style: solid;
+    background-color: #f1f1f1;
+    border-color: #000000;
     border-radius: 10px;
     border-width: 1px;
-    border-color: #8e9eab;
-    align-content: center;
     width: 10rem;
-    height: 2rem;
-    font-size: medium;
-    font-weight: 600;
+}
+
+.details :hover {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #f1f1f1;
 }
 
 .details-link {
+    display: block;
+    padding: .5rem;
     color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
 }
