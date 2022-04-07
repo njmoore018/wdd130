@@ -206,6 +206,13 @@ main h2 {
 }
 /* #endregion TUTORIALS */
 
+/* #region SUBMISSIONS */
+.all-time h3 {
+    font-size: 2rem;
+    text-align: left;
+}
+/* #endregion SUBMISSIONS */
+
 /* #region FOOTER */
 footer {
     display: flex;
@@ -222,4 +229,8 @@ footer div a img {
     padding: 10px;
 }
 
+.disclaimer {
+    text-align: center;
+    font-size: 1rem;
+}
 /* #endregion FOOTER */
