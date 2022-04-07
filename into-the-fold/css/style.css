@@ -207,9 +207,17 @@ main h2 {
 /* #endregion TUTORIALS */
 
 /* #region SUBMISSIONS */
-.all-time h3 {
+.submissions h3{
     font-size: 2rem;
     text-align: left;
+}
+
+.top-subs {
+    display: flex;
+}
+
+.top-sub a img{
+    width: 50px;
 }
 /* #endregion SUBMISSIONS */
 
