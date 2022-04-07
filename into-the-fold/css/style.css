@@ -18,6 +18,12 @@ h2 {
     color: #1d60a3;
 }
 
+h3 {
+    text-align: center; 
+    color: #1d60a3;
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -145,9 +151,59 @@ header nav ul li :hover {
 /* #endregion HOME */
 
 /* #region TUTORIALS */
+main h2 {
+    padding: 2rem;
+    text-align: center;
+}
 
+.tutorials {
+    display: flex;
+    padding: 10px;
+}
 
+.tutorial {
+    padding: 10px;
+    text-align: center;
+}
 
+.tutorial img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.tutorial iframe {
+    padding-top: 2rem;
+    height: 200px;
+    width: 300px;
+}
+
+.weekly-tutorial h3 {
+    text-align: left;
+}
+
+.weekly-tutorial div {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.weekly-tutorial div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.weekly-tutorial div iframe {
+    height: 200px;
+}
+
+.weekly-tutorial div ul {
+    list-style: none;
+}
+
+.weekly-tutorial div ul li a img {
+    max-width: 50px;
+    max-height: 50px;
+}
 /* #endregion TUTORIALS */
 
 /* #region FOOTER */
@@ -158,11 +214,6 @@ footer {
 
 footer p {
     font-size: 1.5rem;
-    color: #1d60a3;
-}
-
-footer div h3 {
-    text-align: center;
     color: #1d60a3;
 }
 
