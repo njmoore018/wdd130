@@ -219,6 +219,48 @@ main h2 {
 .top-sub a img{
     width: 50px;
 }
+
+.submissions-form form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #1d60a3;
+}
+
+.submissions-form form ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.submissions-form form ul li label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-size: 1rem;
+    color: #1d60a3;
+}
+
+.submissions-form form ul li .text {
+    font: 1.2em sans-serif;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.button,
+.my-file {
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
+    box-shadow: 2px 2px 5px #000;
+}
+
 /* #endregion SUBMISSIONS */
 
 /* #region FOOTER */
